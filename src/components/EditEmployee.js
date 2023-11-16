@@ -22,7 +22,6 @@ const EditEmployee = () => {
   };
 
   const updateData = () => {
-    // alert(id);
     const empInfo = {
       name: empname,
       mobile: empmobile,
