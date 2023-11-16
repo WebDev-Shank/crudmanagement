@@ -6,9 +6,9 @@ const Header = () => {
     <div>
       <nav className="navbar fixed-top bg-black justify-content-center px-5">
         <ul className="nav">
-          <h5 className="text-danger  float-left">
-            <img src="./images/mylogo.png" alt="jj" />
-          </h5>
+          <h3 className="text-danger mt-2">
+            <i className="fa fa-building">Employee Management</i>
+          </h3>
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/">
               Dashboard
