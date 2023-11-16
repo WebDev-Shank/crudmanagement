@@ -1,0 +1,34 @@
+================== Day 1 ===================================
+
+=> create header with routing
+    *npm install react-router-dom  [for routing]
+
+    ->Dashboard [default]
+    ->AddNewEmployee
+    ->EmployeeList
+
+=> render all components through routing
+
+================== Day 2 ===================================
+
+=> now json server 
+    -> create folder [jsonapi]
+    -> npm install -g json-server
+    -> npm init
+    -> create a json file [data.json]
+
+    start json server
+    -> go to jsonapi folder
+    -> json-server --watch data.json --port 3002 [any port number we can give]
+
+=> with the running server [GET,POST] Done
+    -> fetch the data    
+    -> add data to the list 
+    
+================== Day 3 ===================================
+
+=> with the running server [DELETE] Done
+    -> add delete button to all items while rendering
+    -> use bind method to pass the [id,name]
+
+      

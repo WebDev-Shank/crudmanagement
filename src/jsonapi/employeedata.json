@@ -1,0 +1,20 @@
+{
+  "employee": [
+    {
+      "name": "Shankar S",
+      "mobile": "12990990",
+      "dept": "IT",
+      "salary": "200000",
+      "id": 1
+    },
+    {
+      "name": "Ravi Kumar G",
+      "mobile": "343443",
+      "dept": "it",
+      "salary": "120000",
+      "id": 2
+    }
+  ],
+  "product": [],
+  "client": []
+}
