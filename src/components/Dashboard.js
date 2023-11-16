@@ -4,8 +4,9 @@ const Dashboard = () => {
   const [empList, setEmpList] = useState("");
   //! get employee data
   const getData = () => {
-    let url = "http://localhost:3002/employee";
-    fetch(url)
+    // let url = "http://localhost:3002/employee";
+    let url1 = "https://employeedata-fb7q.onrender.com/employee";
+    fetch(url1)
       .then((res) => res.json())
       .then((empList) => {
         console.log(empList);

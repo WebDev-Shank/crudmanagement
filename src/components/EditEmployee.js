@@ -12,8 +12,9 @@ const EditEmployee = () => {
   const [message, setMessage] = useState("");
 
   const getData = () => {
-    let url = "http://localhost:3002/employee/" + id;
-    axios.get(url).then((res) => {
+    // let url = "http://localhost:3002/employee/" + id;
+    let url1 = "https://employeedata-fb7q.onrender.com/employee/" + id;
+    axios.get(url1).then((res) => {
       setEmpName(res.data.name);
       setEmpMobile(res.data.mobile);
       setEmpDept(res.data.dept);
@@ -28,8 +29,9 @@ const EditEmployee = () => {
       dept: empdept,
       salary: empsalary,
     };
-    let url = "http://localhost:3002/employee/" + id;
-    axios.put(url, empInfo).then((res) => {
+    // let url = "http://localhost:3002/employee/" + id;
+    let url1 = "https://employeedata-fb7q.onrender.com/employee/" + id;
+    axios.put(url1, empInfo).then((res) => {
       setMessage(empname + " details updated successfully");
     });
     setTimeout(() => {

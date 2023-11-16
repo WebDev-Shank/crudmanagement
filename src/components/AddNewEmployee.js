@@ -29,9 +29,10 @@ const AddNewEmployee = () => {
         dept: empdept,
         salary: empsalary,
       };
-      const url = "http://localhost:3002/employee";
+      // const url = "http://localhost:3002/employee";
+      let url1 = "https://employeedata-fb7q.onrender.com/employee";
       axios
-        .post(url, empInfo)
+        .post(url1, empInfo)
         .then((res) => setMessage(empname + " data added successfully !"));
       setMsgState(true);
       setTimeout(() => {
