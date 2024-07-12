@@ -12,7 +12,7 @@ const EmployeeList = () => {
     fetch(url1)
       .then((res) => res.json())
       .then((empList) => {
-        console.log(empList);
+        // console.log(empList);
         setData(empList.reverse());
       });
   };
@@ -20,9 +20,10 @@ const EmployeeList = () => {
   //! delete employee data
   const [message, setMessage] = useState("");
   const deleteData = (id, name) => {
-    alert(id);
+    // alert(id);
     axios
-      .delete("http://localhost:3003/employee/" + id)
+      // .delete("http://localhost:3003/employee/" + id)
+      .delete("https://employeedata-fb7q.onrender.com/employee/" + id)
       .then((res) => {
         setMessage(name + " data deleted successfully !");
         setTimeout(() => {

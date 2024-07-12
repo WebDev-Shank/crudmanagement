@@ -42,7 +42,7 @@ const EditEmployee = () => {
 
   useEffect(() => {
     getData();
-  }, []);
+  }, [empname, empdept, empmobile, empsalary]);
 
   return (
     <div className="container mt-5">
