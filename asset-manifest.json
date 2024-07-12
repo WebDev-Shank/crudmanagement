@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/crudmanagement/static/css/main.1d583ad9.css",
-    "main.js": "/crudmanagement/static/js/main.16f7bce5.js",
+    "main.js": "/crudmanagement/static/js/main.b593a83b.js",
     "index.html": "/crudmanagement/index.html",
     "main.1d583ad9.css.map": "/crudmanagement/static/css/main.1d583ad9.css.map",
-    "main.16f7bce5.js.map": "/crudmanagement/static/js/main.16f7bce5.js.map"
+    "main.b593a83b.js.map": "/crudmanagement/static/js/main.b593a83b.js.map"
   },
   "entrypoints": [
     "static/css/main.1d583ad9.css",
-    "static/js/main.16f7bce5.js"
+    "static/js/main.b593a83b.js"
   ]
 }
