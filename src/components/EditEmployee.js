@@ -35,7 +35,10 @@ const EditEmployee = () => {
       setMessage(empname + " details updated successfully");
     });
     setTimeout(() => {
-      window.location.assign("http://localhost:3000/#/employeelist"); //for redirecting url
+      // window.location.assign("http://localhost:3000/#/employeelist"); //for redirecting url
+      window.location.assign(
+        "https://webdev-shank.github.io/crudmanagement/#/employeelist"
+      );
     }, 2000);
   };
 
