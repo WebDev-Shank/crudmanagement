@@ -36,13 +36,12 @@ const EditEmployee = () => {
     });
     setTimeout(() => {
       window.location.assign("http://localhost:3000/#/employeelist"); //for redirecting url
-      alert("We are redirecting to previous page");
     }, 2000);
   };
 
   useEffect(() => {
     getData();
-  }, [empname, empdept, empmobile, empsalary]);
+  }, [1]);
 
   return (
     <div className="container mt-5">
